@@ -70,11 +70,11 @@
     justify-content: center;
   }
 
-  .trTitle{
+  .trTitle {
     display: none;
   }
 
-  .tr{
+  .tr {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,33 +82,51 @@
     margin-bottom: 20px;
   }
 
-  .imgContainer{
+  .imgContainer {
     width: 35vw;
     height: 35vw;
   }
 
-  .name,.total{
+  .name,
+  .total {
     font-size: 24px;
   }
 
-  .extras,.price,.quantity{
+  .extras,
+  .price,
+  .quantity {
     font-size: 22px;
   }
 
-  .price::before{
-    content: "Price: ";
+  .price::before {
+    content: 'Price: ';
     font-weight: 500;
   }
-  .quantity::before{
-    content: "Quantity: ";
+  .quantity::before {
+    content: 'Quantity: ';
     font-weight: 500;
   }
-  .total::before{
-    content: "Total: ";
+  .total::before {
+    content: 'Total: ';
     font-weight: 500;
   }
 
-  .wrapper{
+  .wrapper {
     width: 100%;
   }
+}
+
+.paymentMethods {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.payButton {
+  padding: 10px 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  background-color: white;
+  color: teal;
+  font-weight: bold;
 }
