@@ -1,4 +1,4 @@
-import Product from '../../../models/product';
+import Product from '../../../models/Product';
 import dbConnect from '../../../util/mongo';
 
 export default async function handler(req, res) {
